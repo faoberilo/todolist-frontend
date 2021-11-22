@@ -48,15 +48,15 @@ const Editar = () => {
       <h3>Editar Tarefa</h3>
       <form onSubmit={handleSubmit}>
       <div class="form-floating mb-3">
-        <input type="text" class="form-control" id="titulo" name="titulo" placeholder="titulo" onChange={handleFieldsChange} value={tarefa.titulo}/>
+        <input type="text" class="form-control" id="titulo" name="titulo" placeholder="titulo" onChange={handleFieldsChange} value={tarefa.titulo} required/>
         <label for="titulo">Título</label>
       </div>
       <div class="form-floating mb-3">
-        <input type="text" class="form-control" id="descricao" name="descricao" placeholder="descricao" onChange={handleFieldsChange} value={tarefa.descricao}/>
+        <input type="text" class="form-control" id="descricao" name="descricao" placeholder="descricao" onChange={handleFieldsChange} value={tarefa.descricao} required/>
         <label for="capa">Descrição</label>
       </div>
       <div class="form-floating mb-3">
-  <select class="form-select mb-3" id="prioridade" name="prioridade" aria-label="prioridade" onChange={handleFieldsChange} value={tarefa.prioridade}>
+  <select class="form-select mb-3" id="prioridade" name="prioridade" aria-label="prioridade" onChange={handleFieldsChange} value={tarefa.prioridade} required>
     <option selected>Prioridade</option>
     <option value="Baixa">Baixa</option>
     <option value="Media">Media</option>
@@ -65,7 +65,7 @@ const Editar = () => {
   <label for="floatingSelect">Prioridade</label>
     </div>
     <div class="form-floating mb-3">
-  <select class="form-select mb-3" id="status" name="status" aria-label="status" onChange={handleFieldsChange} value={tarefa.status}>
+  <select class="form-select mb-3" id="status" name="status" aria-label="status" onChange={handleFieldsChange} value={tarefa.status} required>
     <option selected>Status</option>
     <option value="Fazer">Fazer</option>
     <option value="Fazendo">Fazendo</option>
@@ -74,7 +74,7 @@ const Editar = () => {
   <label for="floatingSelect">Status</label>
     </div>
     <div class="form-floating mb-3">
-        <input type="date" class="form-control" id="prazo" name ="prazo" placeholder="prazo" onChange={handleFieldsChange} value={tarefa.prazo}/>
+        <input type="date" class="form-control" id="prazo" name ="prazo" placeholder="prazo" onChange={handleFieldsChange} value={tarefa.prazo} required/>
         <label for="prazo">Prazo</label>
       </div>
       
