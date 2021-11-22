@@ -1,0 +1,11 @@
+footer {
+    background-color:rgb(37, 37, 37);
+    color: #FFF;
+    display: flex;
+    justify-content:center;
+    font-style: italic;
+    position:absolute;
+    bottom:0;
+    width: 100%;  
+}
+

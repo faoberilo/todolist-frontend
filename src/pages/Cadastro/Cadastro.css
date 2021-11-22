@@ -1,0 +1,49 @@
+.cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 100%;
+    font-weight: bolder;
+    
+}
+.cadastro h3{
+    color:white;
+    font-weight: bold;
+
+}
+
+.cadastro form{
+    width: 50%;
+    font-weight: bolder;
+
+}
+
+.cadastro form input { 
+    font-weight: bolder;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.cadastro form select{
+    font-weight: bolder;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.cadastro form button{
+    font-weight: bolder;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    color: black;
+}
+
+
+
+ 
+
