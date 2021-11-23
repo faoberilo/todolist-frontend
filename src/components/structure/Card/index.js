@@ -1,18 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import './Card.css';
 
 const Card = (props) => {
   const tarefa = props.data;
-  return (
-    
+  return (    
       <Link to={`/view/${tarefa._id}`}>
-        <div class="card">
+        <div class="btn btn-dark w-50">
           <h5>{tarefa.titulo}</h5>
         </div>
-      </Link>
-    
-    
+      </Link>    
   )
 } 
 

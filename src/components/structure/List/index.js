@@ -3,6 +3,7 @@ import Card from "../Card";
 import Api from '../../../api/api';
 
 
+
 const List =()=>{
     const [tarefas,setTarefas] = useState([]); 
     useEffect(()=>{
@@ -15,11 +16,13 @@ const List =()=>{
         setTarefas(data);
     }
     return (
-        <div className="row row-cols-1 row-cols-md-3 mt-3 g-4">
+      
+      <div class="row text-center row-cols-md-3 mt-5 g-3 ">
           {tarefas.map((tarefa) => (
             <Card data={tarefa} key={tarefa._id}/>
           ))}
-        </div>
+      </div>
+        
       )
 }
 

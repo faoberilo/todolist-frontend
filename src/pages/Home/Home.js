@@ -5,7 +5,7 @@ import List from "../../components/structure/List";
 
 const Home = () => {
     return(
-        <div className="container">
+        <div class="home">
             <List/>
         </div>
     )

@@ -8,7 +8,7 @@ import View from './pages/View/View';
 import Editar from './pages/Editar/Editar';
 function App() {
   return (
-    <div>
+    <div >
     <Header/>
     <Routes> 
     <Route path='/' element={<Home/>}/>
