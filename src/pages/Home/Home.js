@@ -1,5 +1,6 @@
 import React from "react";
 import List from "../../components/structure/List";
+import './Home.css'
 
 
 

@@ -5,6 +5,7 @@ import { useNavigate, Link } from 'react-router-dom';
 
 const Cadastro = () => {
   const navigate = useNavigate();
+;
 
   const handleSubmit = async (evento) => {
     evento.preventDefault();
